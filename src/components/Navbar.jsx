@@ -89,7 +89,7 @@ export default function Navbar() {
           <NavLink
             to="/appointment"
             onClick={() => setIsOpen(false)}
-            className="mt-4 bg-indigo-500 text-center py-2 rounded-full font-semibold text-gray-900"
+            className="mt-4 bg-indigo-500 text-center py-2 rounded-full font-semibold text-white"
           >
             Book Appointment
           </NavLink>
