@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        quicksand: ["Quicksand", "sans-serif"],
+      },
       animation: {
         marquee: "marquee 20s linear infinite",
         zoomSlide: "zoomSlide 0.5s ease-in-out",

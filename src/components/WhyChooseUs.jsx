@@ -2,36 +2,11 @@ import React from "react";
 import { ShieldCheck, Stethoscope, TestTube, HeartPulse, Ambulance, ArrowUpRight } from "lucide-react";
 
 const services = [
-  {
-    id: "01",
-    title: "Health Check",
-    desc: "We providing quality healthcare services to our community",
-    icon: ShieldCheck,
-  },
-  {
-    id: "02",
-    title: "Oncology Doctors",
-    desc: "We providing quality healthcare services to our community",
-    icon: Stethoscope,
-  },
-  {
-    id: "03",
-    title: "Blood Test",
-    desc: "We providing quality healthcare services to our community",
-    icon: TestTube,
-  },
-  {
-    id: "04",
-    title: "Special Treatment",
-    desc: "We providing quality healthcare services to our community",
-    icon: HeartPulse,
-  },
-  {
-    id: "06",
-    title: "Emergency Care",
-    desc: "We providing quality healthcare services to our community",
-    icon: Ambulance,
-  },
+  { id: "01", title: "Health Check", desc: "We providing quality healthcare services to our community", icon: ShieldCheck },
+  { id: "02", title: "Oncology Doctors", desc: "We providing quality healthcare services to our community", icon: Stethoscope },
+  { id: "03", title: "Blood Test", desc: "We providing quality healthcare services to our community", icon: TestTube },
+  { id: "04", title: "Special Treatment", desc: "We providing quality healthcare services to our community", icon: HeartPulse },
+  { id: "05", title: "Emergency Care", desc: "We providing quality healthcare services to our community", icon: Ambulance },
 ];
 
 export default function WhyChooseUs() {
@@ -57,21 +32,26 @@ export default function WhyChooseUs() {
           {services.map((item) => (
             <div
               key={item.id}
-              className="relative bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-all duration-300"
+              className="relative bg-white rounded-2xl p-6 md:p-8 shadow-sm border border-gray-100 overflow-hidden group hover:shadow-lg transition-all duration-300"
             >
-              <div className="flex items-center justify-between mb-6">
-                <item.icon className="w-10 h-10 text-[#9D41E4]" />
-                <span className="text-sm font-semibold text-[#9D41E4] bg-indigo-50 px-3 py-1 rounded-lg">
-                  {item.id}
-                </span>
-              </div>
+              {/* Hover Overlay */}
+              <div className="absolute inset-0 bg-[#9D41E4] translate-y-full group-hover:translate-y-0 transition-transform duration-500 opacity-80 rounded-2xl z-0"></div>
 
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                {item.title}
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                {item.desc}
-              </p>
+              <div className="relative flex flex-col h-full z-10">
+                <div className="flex items-center justify-between mb-6">
+                  <item.icon className="w-10 h-10 text-[#9D41E4] group-hover:text-white transition-colors duration-300" />
+                  <span className="text-sm font-semibold text-[#9D41E4] bg-indigo-50 px-3 py-1 rounded-lg group-hover:bg-white group-hover:text-[#9D41E4] transition-colors duration-300">
+                    {item.id}
+                  </span>
+                </div>
+
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-white transition-colors duration-300">
+                  {item.title}
+                </h3>
+                <p className="text-gray-600 text-sm leading-relaxed group-hover:text-white transition-colors duration-300">
+                  {item.desc}
+                </p>
+              </div>
             </div>
           ))}
 
@@ -83,7 +63,7 @@ export default function WhyChooseUs() {
               oncology care
             </h3>
 
-            <button className="inline-flex items-center gap-2 bg-white text-[#9D41E4] font-semibold px-6 py-3 rounded-lg w-fit hover:bg-gray-100 transition">
+            <button className="btn-slide attention inline-flex items-center gap-2 bg-white text-[#9D41E4] font-semibold px-6 py-3 rounded-lg w-fit hover:bg-gray-100 transition">
               Contact Us
               <ArrowUpRight className="w-4 h-4" />
             </button>

@@ -50,7 +50,7 @@ const ScrollPromo = () => {
           </p>
 
           {/* Helpline */}
-          <p className="text-indigo-300 text-lg sm:text-xl font-bold tracking-widest">
+          <p className="text-[#9D41E4] text-lg sm:text-xl font-bold tracking-widest">
             24/7 Cancer Helpline: <br className="sm:hidden" />
             <span className="text-white">+91 98765 43210</span>
           </p>
@@ -58,7 +58,7 @@ const ScrollPromo = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <button
-              className="bg-white text-gray-900 font-semibold 
+              className="btn-slide attention bg-white text-gray-900 font-semibold 
                          px-5 sm:px-7 py-2.5 sm:py-3 
                          shadow hover:bg-gray-200 transition rounded-lg"
             >

@@ -43,7 +43,7 @@ export default function Navbar() {
 
             <NavLink
               to="/appointment"
-              className="bg-indigo-500 hover:bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition"
+              className="btn-slide attention bg-indigo-500 hover:bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition"
             >
               Book Appointment
             </NavLink>
@@ -89,7 +89,7 @@ export default function Navbar() {
           <NavLink
             to="/appointment"
             onClick={() => setIsOpen(false)}
-            className="mt-4 bg-indigo-500 text-center py-2 rounded-full font-semibold text-white"
+            className="btn-slide attention mt-4 bg-indigo-500 text-center py-2 rounded-full font-semibold text-white"
           >
             Book Appointment
           </NavLink>

@@ -82,14 +82,14 @@ export default function HeroSection() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <a
                   href="#"
-                  className="inline-flex items-center gap-2 bg-[#9D41E4] hover:bg-[#8924d6] text-white px-6 py-3 rounded-lg font-semibold transition"
+                  className="btn-slide attention inline-flex items-center gap-2 bg-[#9D41E4] hover:bg-[#8924d6] text-white px-6 py-3 rounded-lg font-semibold transition"
                 >
                   Learn About Cancer <ArrowUpRight size={18} />
                 </a>
 
                 <a
                   href="#"
-                  className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition"
+                  className="btn-slide attention inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold transition"
                 >
                   Talk to a Specialist <ArrowUpRight size={18} />
                 </a>
@@ -180,7 +180,7 @@ export default function HeroSection() {
             </p>
             <a
               href="#"
-              className="inline-flex items-center gap-2 bg-white text-gray-900 px-5 py-3 rounded-lg font-semibold mt-8 w-fit hover:bg-gray-100 transition"
+              className="btn-slide attention inline-flex items-center gap-2 bg-white text-gray-900 px-5 py-3 rounded-lg font-semibold mt-8 w-fit hover:bg-gray-100 transition"
             >
               Book Consultation <ArrowUpRight size={18} />
             </a>

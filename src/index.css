@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
+}
+
   /* Hide scrollbar for Chrome, Safari, Edge */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -194,5 +199,67 @@ body {
   100% {
     transform: scale(1.6);
     opacity: 0;
+  }
+}
+
+
+/* ===============================
+   GLOBAL SLIDE BUTTON ANIMATION
+================================ */
+
+.btn-slide {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* SLIDING LIGHT STRIP */
+.btn-slide::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -120%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  transform: rotate(25deg);
+  transition: left 0.7s ease;
+}
+
+/* HOVER ANIMATION */
+.btn-slide:hover::before {
+  left: 120%;
+}
+
+/* LIFT EFFECT */
+.btn-slide:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
+}
+
+/* CLICK FEEDBACK */
+.btn-slide:active {
+  transform: scale(0.95);
+}
+
+
+.btn-slide.attention {
+  animation: pulseGlow 2.5s infinite;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0 rgba(19, 37, 115, 0.0);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(19, 37, 115, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(19, 37, 115, 0.0);
   }
 }

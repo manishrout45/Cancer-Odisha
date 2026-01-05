@@ -165,9 +165,14 @@ export default function ServiceSuccess() {
 
           {/* CENTER BADGE */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white rounded-2xl shadow-lg p-5 flex flex-col items-center">
-            <div className="w-10 h-10 flex items-center justify-center border rounded-full mb-2 text-purple-600 text-xl">
-              🏥
-            </div>
+            <div className="w-10 h-10 flex items-center justify-center border rounded-full mb-2 overflow-hidden">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/9670/9670520.png" // replace with your image URL
+              alt="Hospital Icon"
+              className="w-6 h-6 object-contain"
+            />
+          </div>
+
             <p className="text-xs tracking-widest font-semibold text-gray-700">
               ONCOLOGY
             </p>

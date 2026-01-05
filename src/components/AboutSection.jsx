@@ -103,7 +103,7 @@ export default function AboutSection() {
           <div className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center lg:justify-start gap-5 pt-4">
 
             {/* CTA */}
-            <button className="inline-flex items-center gap-2 bg-[#9D41E4] text-white px-6 py-3 rounded-lg font-semibold transition hover:bg-[#8924d6]">
+            <button className="btn-slide attention inline-flex items-center gap-2 bg-[#9D41E4] text-white px-6 py-3 rounded-lg font-semibold transition hover:bg-[#8924d6]">
               Learn About Our Care <FiArrowUpRight />
             </button>
 

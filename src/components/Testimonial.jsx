@@ -85,7 +85,7 @@ export default function Testimonial() {
                 <textarea rows="4" placeholder="Type Your Message" className="sm:col-span-2 input" />
 
                 <div className="sm:col-span-2 mt-4">
-                  <button className="bg-[#9D41E4] hover:bg-[#8924d6] transition text-white text-sm font-semibold px-8 py-3 rounded-lg">
+                  <button className="btn-slide attention bg-[#9D41E4] hover:bg-[#8924d6] transition text-white text-sm font-semibold px-8 py-3 rounded-lg">
                     BOOK AN APPOINTMENT
                   </button>
                 </div>
