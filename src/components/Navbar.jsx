@@ -27,10 +27,9 @@ export default function Navbar() {
           {/* DESKTOP MENU */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">
             <NavLink to="/" className={navLinkClass}>Home</NavLink>
-            <NavLink to="/department" className={navLinkClass}>Department</NavLink>
-            <NavLink to="/doctors" className={navLinkClass}>Doctors</NavLink>
-            <NavLink to="/portfolio" className={navLinkClass}>Portfolio</NavLink>
-            <NavLink to="/news" className={navLinkClass}>News</NavLink>
+            <NavLink to="/about" className={navLinkClass}>About</NavLink>
+            <NavLink to="/services" className={navLinkClass}>Services</NavLink>
+            <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
           </nav>
 
           {/* RIGHT ACTIONS */}
