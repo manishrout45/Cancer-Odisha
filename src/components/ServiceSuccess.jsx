@@ -173,7 +173,7 @@ export default function ServiceSuccess() {
             />
           </div>
 
-            <p className="text-xs tracking-widest font-semibold text-gray-700">
+            <p className="text-xs tracking-widest font-extrabold text-red-600">
               ONCOLOGY
             </p>
             <p className="text-xs tracking-widest text-gray-500 text-center">

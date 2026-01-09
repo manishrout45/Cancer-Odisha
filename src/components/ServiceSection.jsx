@@ -3,68 +3,84 @@ import { ArrowUpRight } from "lucide-react";
 
 const services = [
   {
-    tag: "CHILD CARE",
-    title: "Pediatric Oncology",
+    tag: "MOST COMMON",
+    title: "Carcinoma",
     desc:
-      "Pediatric Oncology focuses on diagnosing and treating cancers in children, using child-friendly therapies and emotional support for both patients and families.",
+      "Carcinoma is the most common type of cancer and usually develops in the skin or tissues of internal organs. It refers to abnormal cell growth forming tumors. Common examples include Breast Cancer, Lung Cancer, Prostate Cancer, Pancreatic Cancer, Colorectal Cancer, Liver Cancer, and Stomach Cancer.",
     image:
-      "https://img.freepik.com/free-photo/child-suffering-from-cancer_23-2149501440.jpg?w=740&q=80",
+      "https://img.freepik.com/free-photo/high-angle-hands-wearing-protective-gloves_23-2149359548.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "MEDICATION",
-    title: "Medical Oncology",
+    tag: "BLOOD CANCER",
+    title: "Leukemia",
     desc:
-      "Medical Oncology uses cancer-fighting medicines such as chemotherapy, targeted therapy, and immunotherapy to slow or eliminate cancer cells safely.",
+      "Leukemia is a type of blood cancer that originates in the bone marrow. It occurs when mutations in bone marrow cells produce abnormal blood cells, affecting the body’s ability to fight infections and carry oxygen efficiently.",
     image:
-      "https://img.freepik.com/free-photo/middle-aged-woman-with-skin-cancer-talking-with-her-doctor_23-2148988521.jpg?w=740&q=80",
+      "https://img.freepik.com/premium-photo/aids-awareness-icon-design-poster-banner-tshirt-illustration-isolated-white-background-stop-aids-december-aids-awareness-health-care_43780-8014.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "BLOOD CARE",
-    title: "Hemato Oncology",
+    tag: "BONE & TISSUE",
+    title: "Sarcoma",
     desc:
-      "Hemato-Oncology treats blood-related cancers including leukemia, lymphoma, and myeloma using advanced diagnostics and personalized care plans.",
+      "Sarcoma is a cancer of the bone and soft tissues, with over 80 subtypes. It can affect people of any age and commonly occurs in the arms and legs. It develops in bones, muscles, blood vessels, nerves, or connective tissues and may be linked to genetics, radiation exposure, or chemicals.",
     image:
-      "https://img.freepik.com/free-photo/closeup-shot-person-studying-coronavirus-particles-with-microscope_181624-1142.jpg?w=740&q=80",
+      "https://img.freepik.com/free-photo/front-view-doctor-explaining-anatomy_23-2149870307.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "WOMEN’S HEALTH",
-    title: "Gynecologic Oncology",
+    tag: "NEURO CARE",
+    title: "Central Nervous System Cancer",
     desc:
-      "Gynecologic Oncology specializes in cancers affecting the female reproductive system, offering early detection, treatment, and long-term follow-up care.",
+      "Central Nervous System cancer affects the brain and spinal cord. Brain tumors impact various brain cells such as glial cells and meninges, affecting cognitive and motor functions. Spinal cord cancer, though rare, can cause severe mobility loss and has a high mortality risk.",
     image:
-      "https://img.freepik.com/free-photo/gynecologist-talking-with-young-female-patient-medical-consultation-modern-clinic_657921-141.jpg?w=740&q=80",
+      "https://img.freepik.com/free-vector/illustration-brain-cancer-cell-human-brain_1308-181756.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "SURGERY",
-    title: "Surgical Oncology",
+    tag: "IMMUNE SYSTEM",
+    title: "Immune System Cancer",
     desc:
-      "Surgical Oncology involves removing cancerous tumors through precise surgical techniques while preserving healthy tissue whenever possible.",
+      "Immune system cancers include Lymphoma and Myeloma. Lymphoma affects lymphocytes, while Myeloma targets plasma cells. These cancers weaken immunity and may cause complications such as bone damage and kidney disorders.",
     image:
-      "https://img.freepik.com/free-photo/surgeons-passing-scissors-each-other_329181-19635.jpg?w=740&q=80",
+      "https://img.freepik.com/free-photo/little-kid-protect-coronavirus-covid-19-virus-coronavirus-outbreak_493343-30170.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
+  },
+   {
+    tag: "MOST COMMON",
+    title: "Carcinoma",
+    desc:
+      "Carcinoma is the most common type of cancer and usually develops in the skin or tissues of internal organs. It refers to abnormal cell growth forming tumors. Common examples include Breast Cancer, Lung Cancer, Prostate Cancer, Pancreatic Cancer, Colorectal Cancer, Liver Cancer, and Stomach Cancer.",
+    image:
+      "https://img.freepik.com/free-photo/high-angle-hands-wearing-protective-gloves_23-2149359548.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "IMMUNE CARE",
-    title: "Immunotherapy",
+    tag: "BLOOD CANCER",
+    title: "Leukemia",
     desc:
-      "Immunotherapy strengthens the body’s immune system to recognize and attack cancer cells, offering targeted treatment with fewer side effects.",
+      "Leukemia is a type of blood cancer that originates in the bone marrow. It occurs when mutations in bone marrow cells produce abnormal blood cells, affecting the body’s ability to fight infections and carry oxygen efficiently.",
     image:
-      "https://img.freepik.com/free-photo/3d-virus-cells-attacking-dna-strand_1048-6816.jpg?w=740&q=80",
+      "https://img.freepik.com/premium-photo/aids-awareness-icon-design-poster-banner-tshirt-illustration-isolated-white-background-stop-aids-december-aids-awareness-health-care_43780-8014.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "RADIATION",
-    title: "Radiation Oncology",
+    tag: "BONE & TISSUE",
+    title: "Sarcoma",
     desc:
-      "Radiation Oncology uses high-energy radiation to destroy cancer cells while protecting surrounding healthy tissue through advanced technology.",
+      "Sarcoma is a cancer of the bone and soft tissues, with over 80 subtypes. It can affect people of any age and commonly occurs in the arms and legs. It develops in bones, muscles, blood vessels, nerves, or connective tissues and may be linked to genetics, radiation exposure, or chemicals.",
     image:
-      "https://img.freepik.com/premium-photo/female-doctor-assisting-patient-mri-machine-critical-diagnostic-procedure_1192423-4613.jpg?w=740&q=80",
+      "https://img.freepik.com/free-photo/front-view-doctor-explaining-anatomy_23-2149870307.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
   {
-    tag: "RESEARCH",
-    title: "Clinical Trials",
+    tag: "NEURO CARE",
+    title: "Central Nervous System Cancer",
     desc:
-      "Clinical trials provide access to innovative cancer treatments under expert supervision, contributing to future breakthroughs in cancer care.",
+      "Central Nervous System cancer affects the brain and spinal cord. Brain tumors impact various brain cells such as glial cells and meninges, affecting cognitive and motor functions. Spinal cord cancer, though rare, can cause severe mobility loss and has a high mortality risk.",
     image:
-      "https://img.freepik.com/premium-photo/blood-test-laboratory-laboratory-assistant-working-with-dispenser-vacuum-tubes-with-blood_265022-109369.jpg?w=740&q=80",
+      "https://img.freepik.com/free-vector/illustration-brain-cancer-cell-human-brain_1308-181756.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
+  },
+  {
+    tag: "IMMUNE SYSTEM",
+    title: "Immune System Cancer",
+    desc:
+      "Immune system cancers include Lymphoma and Myeloma. Lymphoma affects lymphocytes, while Myeloma targets plasma cells. These cancers weaken immunity and may cause complications such as bone damage and kidney disorders.",
+    image:
+      "https://img.freepik.com/free-photo/little-kid-protect-coronavirus-covid-19-virus-coronavirus-outbreak_493343-30170.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
 ];
 
@@ -142,14 +158,22 @@ export default function ServiceSection() {
       <div className="max-w-7xl mx-auto px-4">
 
         {/* HEADER */}
-        <div className="mb-12">
-          <span className="inline-block bg-white px-4 py-1 rounded-full text-xs font-semibold text-gray-700 mb-4">
-            OUR ONCOLOGY SERVICES
-          </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 max-w-3xl">
-            Comprehensive Cancer Care Through Education & Expertise
-          </h2>
-        </div>
+<div className="mb-12 max-w-4xl">
+  <span className="inline-block bg-white px-4 py-1 rounded-full text-xs font-semibold text-gray-700 mb-4">
+    OUR ONCOLOGY SERVICES
+  </span>
+
+  <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 max-w-3xl">
+    A Guide to Different Cancer Types
+  </h2>
+
+  <p className="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed max-w-3xl">
+    In a world of diversity, 200 types of cancer diseases are found in kids, young generations,
+and older people. However, scientists have categorized the cancer diseases into 5 major
+types, such as:
+  </p>
+</div>
+
 
         {/* CARDS */}
         <div

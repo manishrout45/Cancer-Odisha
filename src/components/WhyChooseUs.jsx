@@ -2,11 +2,11 @@ import React from "react";
 import { ShieldCheck, Stethoscope, TestTube, HeartPulse, Ambulance, ArrowUpRight } from "lucide-react";
 
 const services = [
-  { id: "01", title: "Health Check", desc: "We providing quality healthcare services to our community", icon: ShieldCheck },
-  { id: "02", title: "Oncology Doctors", desc: "We providing quality healthcare services to our community", icon: Stethoscope },
-  { id: "03", title: "Blood Test", desc: "We providing quality healthcare services to our community", icon: TestTube },
-  { id: "04", title: "Special Treatment", desc: "We providing quality healthcare services to our community", icon: HeartPulse },
-  { id: "05", title: "Emergency Care", desc: "We providing quality healthcare services to our community", icon: Ambulance },
+  { id: "01", title: "Initial Consultation", desc: "An oncologist diagnoses your full medical history, including assessing your pre-existing diseases, current medications, surgery history, and other essential health information.", icon: ShieldCheck },
+  { id: "02", title: "Physical Test", desc: "This phase includes a blood test, imaging scans, and a biopsy report to examine the types and stages of cancer, and accordingly decide the treatment types.", icon: Stethoscope },
+  { id: "03", title: "Preparation for the Treatment", desc: "An expert oncologist in Odisha helps patients to prepare for the treatment session, result expectations, and side effects details, types of radiation, antibiotics to be used, etc.", icon: TestTube },
+  { id: "04", title: "Treatment Solutions", desc: "There are several cancer treatments in Odisha available, including surgical, chemotherapy, immunotherapy, radiation therapy, bone marrow transplant, laser therapy, etc. ", icon: HeartPulse },
+  { id: "05", title: "Aftercare", desc: "The aftercare includes post-operative instructions, follow-ups, and other formalities provided in the cancer care hospital in Bhubaneswar.", icon: Ambulance },
 ];
 
 export default function WhyChooseUs() {
@@ -20,8 +20,8 @@ export default function WhyChooseUs() {
             WHY CHOOSE US
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900">
-            We Are Always Open For <br className="hidden sm:block" />
-            Your Health Services
+            Procedure of a Cancer Treatment in Odisha-  <br className="hidden sm:block" />
+            A Complete Diagnosis Process of Cancer Journey
           </h2>
         </div>
 
