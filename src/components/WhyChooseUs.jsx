@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
           <span className="inline-block text-xs font-semibold tracking-widest text-[#9D41E4] bg-[#ede0ed] px-4 py-1 rounded-full mb-4">
             WHY CHOOSE US
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-gray-900 fade-up">
             Procedure of a Cancer Treatment in Odisha-  <br className="hidden sm:block" />
             A Complete Diagnosis Process of Cancer Journey
           </h2>

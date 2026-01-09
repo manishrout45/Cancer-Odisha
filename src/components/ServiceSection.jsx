@@ -163,11 +163,11 @@ export default function ServiceSection() {
     OUR ONCOLOGY SERVICES
   </span>
 
-  <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 max-w-3xl">
+  <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 max-w-3xl fade-right">
     A Guide to Different Cancer Types
   </h2>
 
-  <p className="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed max-w-3xl">
+  <p className="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed max-w-3xl fade-up">
     In a world of diversity, 200 types of cancer diseases are found in kids, young generations,
 and older people. However, scientists have categorized the cancer diseases into 5 major
 types, such as:
@@ -183,7 +183,7 @@ types, such as:
             flex gap-6 overflow-x-auto scroll-smooth pb-6
             snap-x snap-mandatory
             px-[calc(50vw-9rem)] sm:px-0
-            hide-scrollbar
+            hide-scrollbar fade-up
           "
         >
           {services.map((service, i) => (

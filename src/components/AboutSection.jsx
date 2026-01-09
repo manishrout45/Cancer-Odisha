@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* ================= LEFT IMAGE AREA ================= */}
-        <div className="relative flex justify-center lg:justify-start">
+        <div className="relative flex justify-center lg:justify-start fade-up">
 
           {/* Main Image */}
           <div className="w-full max-w-[560px] h-[240px] sm:h-[320px] md:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden">
@@ -42,7 +42,7 @@ export default function AboutSection() {
         </div>
 
         {/* ================= RIGHT CONTENT ================= */}
-        <div className="space-y-6 sm:space-y-7 text-center lg:text-left">
+        <div className="space-y-6 sm:space-y-7 text-center lg:text-left ">
 
           {/* Tag */}
           <span className="inline-block bg-[#ede0ed] text-[#9D41E4] px-4 py-1 rounded-full text-xs font-semibold tracking-wide">
@@ -50,13 +50,13 @@ export default function AboutSection() {
           </span>
 
           {/* Heading */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight fade-left">
             Expert Cancer Care in Odisha Focused on Healing and Hope | 
             A Cancer Odisha Awareness Program
           </h2>
 
           {/* Description */}
-          <p className="text-gray-600 text-sm sm:text-base leading-relaxed max-w-xl mx-auto lg:mx-0 text-left">
+          <p className="text-gray-600 text-sm sm:text-base leading-relaxed max-w-xl mx-auto lg:mx-0 text-left fade-up">
             Welcome to Cancer Odisha, an initiative to raise awareness of cancer and encourage
             cancer patients throughout their journey. The page is an educational program that provides
             basic knowledge of cancer, a type of disease that comes under Medical Oncology. From
@@ -68,7 +68,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-2">
 
             {/* Feature 1 */}
-            <div className="flex gap-4 text-left">
+            <div className="flex gap-4 text-left fade-up">
               <FaHeartbeat className="text-[#9D41E4] text-2xl mt-1 shrink-0" />
               <h4 className="font-semibold text-gray-900">
                 100% True Information
@@ -76,7 +76,7 @@ export default function AboutSection() {
             </div>
 
             {/* Feature 2 */}
-            <div className="flex gap-4 text-left">
+            <div className="flex gap-4 text-left fade-up">
               <FaClipboardCheck className="text-[#9D41E4] text-2xl mt-1 shrink-0" />
               <h4 className="font-semibold text-gray-900">
                 Sourced From Authentic Resources

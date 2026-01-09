@@ -41,7 +41,7 @@ export default function Testimonial() {
           <div className="grid grid-cols-1 lg:grid-cols-2">
 
             {/* LEFT : FORM */}
-            <div className="p-8 md:p-12 lg:p-14">
+            <div className="p-8 md:p-12 lg:p-14 fade-right">
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-8">
                 Get a quote for start new journey
               </h2>
@@ -99,19 +99,19 @@ export default function Testimonial() {
                 TESTIMONIAL
               </span>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight fade-right">
                 Feedback From our <br /> happy patients
               </h2>
 
               {/* Stars */}
-              <div className="flex items-center gap-1 text-yellow-400 mb-6">
+              <div className="flex items-center gap-1 text-yellow-400 mb-6 fade-right">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} size={18} fill="currentColor" />
                 ))}
               </div>
 
               {/* FIXED HEIGHT TEXT AREA */}
-              <div className="min-h-[120px] md:min-h-[140px] transition-all duration-500">
+              <div className="min-h-[120px] md:min-h-[140px] transition-all duration-500 fade-up">
                 <p className="text-gray-600 leading-relaxed">
                   {current.text}
                 </p>

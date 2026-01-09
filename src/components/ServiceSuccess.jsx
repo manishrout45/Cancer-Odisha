@@ -133,10 +133,10 @@ export default function ServiceSuccess() {
 
                 {/* TEXT */}
                 <div>
-                  <h4 className="text-lg font-semibold text-gray-900">
+                  <h4 className="text-lg font-semibold text-gray-900 fade-right">
                     {item.title}
                   </h4>
-                  <p className="text-sm text-gray-600 max-w-sm">
+                  <p className="text-sm text-gray-600 max-w-sm fade-right">
                     {item.desc}
                   </p>
                 </div>

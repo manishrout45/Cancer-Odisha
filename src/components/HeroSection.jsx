@@ -133,9 +133,9 @@ export default function HeroSection() {
 
       {/* ================= INFO CARDS ================= */}
       <section className="relative z-20  pb-6 bg-white">
-        <div className="max-w-7xl mx-auto px-4  grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="max-w-7xl mx-auto px-4  grid gap-8 md:grid-cols-2 lg:grid-cols-3 ">
 
-          <div className="bg-[#9D41E4] text-white rounded-2xl p-8 shadow-2xl -mt-16">
+          <div className="bg-[#9D41E4] text-white rounded-2xl p-8 shadow-2xl -mt-16 fade-up">
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
               <Clock /> Oncology Support Hours
             </h3>
@@ -155,7 +155,7 @@ export default function HeroSection() {
             </ul>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-2xl -mt-16">
+          <div className="bg-white rounded-2xl p-8 shadow-2xl -mt-16 fade-up">
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
               <Phone className="text-[#9D41E4]" /> Cancer Helpline
             </h3>
@@ -164,7 +164,7 @@ export default function HeroSection() {
             </p>
           </div>
 
-          <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-2xl -mt-16">
+          <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-2xl -mt-16 fade-up">
             <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
               <CalendarDays /> Oncology Appointments
             </h3>
