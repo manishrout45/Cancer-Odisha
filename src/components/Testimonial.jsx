@@ -35,7 +35,7 @@ export default function Testimonial() {
   const current = testimonials[index];
 
   return (
-    <section className="w-full bg-gradient-to-r from-pink-50 via-white to-pink-100 py-16 md:py-24">
+    <section id="contact" className="w-full bg-gradient-to-r from-pink-50 via-white to-pink-100 py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-4">
         <div className="bg-white rounded-3xl shadow-sm overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-2">

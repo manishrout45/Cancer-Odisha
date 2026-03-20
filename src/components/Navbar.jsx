@@ -1,16 +1,8 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
 import { FiMenu, FiX, FiPhone } from "react-icons/fi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
-  const navLinkClass = ({ isActive }) =>
-    `lp-nav-link transition ${
-      isActive
-        ? "text-[#9D41E4] font-semibold border-b-2 border-[#9D41E4]"
-        : "text-gray-700 hover:text-[#9D41E4]"
-    }`;
 
   return (
     <header className="lp-navbar fixed top-0 w-full bg-white shadow-sm z-50">
@@ -26,10 +18,10 @@ export default function Navbar() {
 
           {/* DESKTOP MENU */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">
-            <NavLink to="/" className={navLinkClass}>Home</NavLink>
-            <NavLink to="/about" className={navLinkClass}>About</NavLink>
-            <NavLink to="/services" className={navLinkClass}>Services</NavLink>
-            <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+            <a href="#home" className="lp-nav-link text-gray-700 hover:text-[#9D41E4] transition">Home</a>
+            <a href="#about" className="lp-nav-link text-gray-700 hover:text-[#9D41E4] transition">About</a>
+            <a href="#services" className="lp-nav-link text-gray-700 hover:text-[#9D41E4] transition">Services</a>
+            <a href="#contact" className="lp-nav-link text-gray-700 hover:text-[#9D41E4] transition">Contact</a>
           </nav>
 
           {/* RIGHT ACTIONS */}
@@ -40,12 +32,12 @@ export default function Navbar() {
               <strong className="text-gray-800">+91 98765 43210</strong>
             </div>
 
-            <NavLink
-              to="/appointment"
+            <a
+              href="#appointment"
               className="btn-slide attention bg-indigo-500 hover:bg-indigo-600 text-white px-5 py-2 rounded-full text-sm font-semibold transition"
             >
               Book Appointment
-            </NavLink>
+            </a>
           </div>
 
           {/* MOBILE MENU BUTTON */}
@@ -58,7 +50,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* MOBILE SLIDE MENU */}
+      {/* MOBILE MENU */}
       <div
         className={`fixed top-0 right-0 h-full w-72 bg-white shadow-lg transform transition-transform duration-300 z-50 ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -72,11 +64,10 @@ export default function Navbar() {
         </div>
 
         <nav className="flex flex-col gap-5 px-5 py-6 text-sm">
-          <NavLink to="/" onClick={() => setIsOpen(false)} className={navLinkClass}>Home</NavLink>
-          <NavLink to="/department" onClick={() => setIsOpen(false)} className={navLinkClass}>Department</NavLink>
-          <NavLink to="/doctors" onClick={() => setIsOpen(false)} className={navLinkClass}>Doctors</NavLink>
-          <NavLink to="/portfolio" onClick={() => setIsOpen(false)} className={navLinkClass}>Portfolio</NavLink>
-          <NavLink to="/news" onClick={() => setIsOpen(false)} className={navLinkClass}>News</NavLink>
+          <a href="#home" onClick={() => setIsOpen(false)}>Home</a>
+          <a href="#about" onClick={() => setIsOpen(false)}>About</a>
+          <a href="#services" onClick={() => setIsOpen(false)}>Services</a>
+          <a href="#contact" onClick={() => setIsOpen(false)}>Contact</a>
 
           <div className="pt-4 border-t">
             <p className="text-xs text-gray-500 mb-2">Call Now</p>
@@ -85,13 +76,13 @@ export default function Navbar() {
             </p>
           </div>
 
-          <NavLink
-            to="/appointment"
+          <a
+            href="#appointment"
             onClick={() => setIsOpen(false)}
             className="btn-slide attention mt-4 bg-indigo-500 text-center py-2 rounded-full font-semibold text-white"
           >
             Book Appointment
-          </NavLink>
+          </a>
         </nav>
       </div>
     </header>

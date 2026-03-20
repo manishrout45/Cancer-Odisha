@@ -148,17 +148,17 @@ export default function ServiceSuccess() {
         {/* RIGHT IMAGE GRID */}
         <div className="relative grid grid-cols-2 gap-4">
           <img
-            src="https://img.freepik.com/free-photo/middle-aged-woman-with-skin-cancer-talking-with-her-doctor_23-2148988517.jpg"
+            src="https://img.freepik.com/premium-photo/doctor-white-lab-coat-stands-beside-patient-hospital-bed-man-medical-uniform-examines_1299716-5204.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             className="rounded-2xl object-cover w-full h-56 md:h-64"
             alt="Patient consultation"
           />
           <img
-            src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"
+            src="https://img.freepik.com/premium-photo/biologists-working-microscope-laboratory_531091-5129.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             className="rounded-2xl object-cover w-full h-56 md:h-64"
             alt="Oncology treatment"
           />
           <img
-            src="https://img.freepik.com/free-photo/chemist-nurse-holding-test-tubes-bringing-doctor-conducting-dna-experiment-discussing-about-medical-treatment-working-overtime_482257-522.jpg"
+            src="https://img.freepik.com/free-photo/scientific-doctor-coming-medical-nurse-discussing-about-vaccine-development-equipped-laboratory-overwork_482257-546.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             className="col-span-2 rounded-2xl object-cover w-full h-64 md:h-80"
             alt="Medical research"
           />

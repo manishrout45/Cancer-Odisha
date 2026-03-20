@@ -4,7 +4,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 export default function AboutSection() {
   return (
-    <section className="w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24">
+    <section id="about" className="w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
         {/* ================= LEFT IMAGE AREA ================= */}
@@ -13,7 +13,7 @@ export default function AboutSection() {
           {/* Main Image */}
           <div className="w-full max-w-[560px] h-[240px] sm:h-[320px] md:h-[380px] lg:h-[420px] rounded-2xl overflow-hidden">
             <img
-              src="https://img.freepik.com/premium-photo/female-doctor-with-wheelchair-patient-window-recovering-from-illness_1375095-1983.jpg"
+              src="https://img.freepik.com/free-photo/doctor-checking-one-her-patients_23-2149017268.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Oncologist consulting patient"
               className="w-full h-full object-cover"
             />
@@ -34,7 +34,7 @@ export default function AboutSection() {
             rounded-2xl overflow-hidden border-8 border-white
           ">
             <img
-              src="https://img.freepik.com/free-photo/world-cancer-day-awareness-with-patient_23-2151249690.jpg"
+              src="https://img.freepik.com/premium-photo/cheerful-elderly-asian-woman-patient-bandage-smiling-giving-thumbs-up-while-sitting-hospital-bed-her-recovery_505557-67169.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
               alt="Cancer patient care"
               className="w-full h-full object-cover"
             />
