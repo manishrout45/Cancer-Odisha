@@ -40,7 +40,7 @@ const services = [
     desc:
       "Immune system cancers include Lymphoma and Myeloma. Lymphoma affects lymphocytes, while Myeloma targets plasma cells. These cancers weaken immunity and may cause complications such as bone damage and kidney disorders.",
     image:
-      "https://img.freepik.com/free-photo/little-kid-protect-coronavirus-covid-19-virus-coronavirus-outbreak_493343-30170.jpg?ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
+      "https://img.freepik.com/free-photo/portrait-indian-doctor-preparing-vaccinate-patient_496169-2906.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80",
   },
    {
     tag: "MOST COMMON",

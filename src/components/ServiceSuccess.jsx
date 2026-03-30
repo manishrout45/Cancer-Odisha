@@ -158,7 +158,7 @@ export default function ServiceSuccess() {
             alt="Oncology treatment"
           />
           <img
-            src="https://img.freepik.com/free-photo/scientific-doctor-coming-medical-nurse-discussing-about-vaccine-development-equipped-laboratory-overwork_482257-546.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
+            src="https://img.freepik.com/premium-photo/advanced-scientific-pharmaceutical-lab-medicine-biotechnology-development_769609-521.jpg?uid=R162123361&ga=GA1.1.1312737827.1743758138&semt=ais_hybrid&w=740&q=80"
             className="col-span-2 rounded-2xl object-cover w-full h-64 md:h-80"
             alt="Medical research"
           />
